@@ -96,7 +96,9 @@ body {
   }
   nav li {
     width: 100%;
-    border-bottom: 1px solid var(--gray-4);
+    /* border-bottom: 1px solid var(--gray-6); */
+    border-bottom: 1px solid var(--footer-gray);
+    border-bottom: 1px solid #333;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
@@ -107,7 +109,7 @@ body {
   }
   nav li a {
     color: white;
-    font-weight: 400;
+    font-weight: 300;
   }
   nav .material-icons {
     position: absolute;
