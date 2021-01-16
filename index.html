@@ -9,10 +9,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@600&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
     <title>Edie Page by Victor Campos</title>
   </head>
   <body>
+    <header>
+      <h1>edie</h1>
+      <i id="openNavbar" class="material-icons">menu</i>
+      <nav id="navbar">
+        <ul>
+          <li class="menuLinks"><a href="#home">home</a></li>
+          <li class="menuLinks"><a href="#services">services</a></li>
+          <li class="menuLinks"><a href="#ourWork">our works</a></li>
+          <li class="menuLinks"><a href="#clients">clients</a></li>
+          <li class="menuLinks"><a href="#contact">contact</a></li>
+        </ul>
+        <i id="closeNavbar" class="material-icons">close</i>
+      </nav>
+    </header>
 
+    <main>
+      <section id="home">
+        <div>
+          <span>Unhappy with your website?</span>
+          <h2>We create beautiful<br />and fast web services</h2>
+        </div>
+        <img src="/assets//images/heroImage.jpg" alt="heroImage" />
+        <div>
+          <h2>Story, emotion<br />and purpose</h2>
+          <p>
+            We help transform your ideas into real world applications that will outperform 
+            your toughest competition and help you achieve your strategic goals in 
+            short period of time.
+          </p>
+          <form action="/" method="POST">
+            <fieldset>
+              <legend>Want us to contact you?</legend>
+              <div>
+                <input type="email" name="toContact" id="toContact"
+                  placeholder="Email"
+                >
+                <button type="submit">Join</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <script src="/index.js"></script>
   </body>
 </html>
