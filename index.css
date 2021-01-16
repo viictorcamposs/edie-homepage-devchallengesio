@@ -353,7 +353,7 @@ body {
   #services .front-end,
   #services .back-end {
     height: 26.375rem;
-    width: 21.3125rem;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
