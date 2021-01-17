@@ -711,6 +711,53 @@ body {
     width: 50rem;
   }
 }
+@media (min-width: 1200px) {
+  main {
+    padding: 2.625rem 3.25rem 0;
+  }
+  #home img {
+    height: 22rem;
+  }
+  #home .first-div-home,
+  #home .second-div-home {
+    margin-left: 12rem;
+  }
+  #services,
+  #ourWork,
+  #ourTeam,
+  #clients {
+    padding: 0 7rem;
+  }
+  #services .designer,
+  #services .front-end,
+  #services .back-end {
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  #services .designer a,
+  #services .front-end a,
+  #services .back-end a {
+    transition: all 0.2s;
+  }
+  #services .services-container .front-end a {
+    color: var(--gray-3);
+    background: var(--bg-gray);
+  }
+  #services .designer:hover,
+  #services .front-end:hover,
+  #services .back-end:hover {
+    box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.1);
+  }
+  #services .designer:hover a,
+  #services .front-end:hover a,
+  #services .back-end:hover a {
+    color: white;
+    background: var(--blue-1);
+  }
+  #services .services-container {
+    column-gap: 2.5625rem;
+  }
+}
 
 /*! FOOTER STYLE */
 @media (min-width: 300px) {
@@ -794,5 +841,10 @@ body {
   }
   footer p {
     margin-top: 7rem;
+  }
+}
+@media (min-width: 1200px) {
+  footer .footer-contact-container {
+    padding: 2.875rem 10.5rem 0;
   }
 }
