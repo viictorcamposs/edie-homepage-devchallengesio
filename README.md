@@ -1,6 +1,5 @@
 <!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Edie Homepage Challenge</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +7,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://edie-homepage-victor.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/viictorcamposs/edie-homepage-devchallengesio">
       Solution
     </a>
     <span> | </span>
@@ -23,6 +22,8 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4198139b-fe32-4051-858f-cce6a6aa8612/deploy-status)](https://app.netlify.com/sites/edie-homepage-victor/deploys)
 
 ## Table of Contents
 
@@ -37,22 +38,15 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+![image](https://user-images.githubusercontent.com/65051855/104856590-56693f00-58f2-11eb-9d36-f5840317bd46.png)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML
+- CSS
+- JavaScript
 
 ## Features
 
@@ -64,18 +58,16 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- Example: -->
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com).
+From your command line:
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/your-user-name/your-project-name
 
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
 ```
+
+You can run the project on Visual Studio Code with Live Server and port 5500 in your browser
 
 ## Acknowledgements
 
@@ -87,6 +79,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [LinkedIn](https://www.linkedin.com/in/camposviictor/)
+- GitHub [@viictorcamposs](https://github.com/viictorcamposs)
+- Twitter [@camposviictor](https://twitter.com/camposviictor)
