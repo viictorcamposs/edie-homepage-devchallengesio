@@ -511,9 +511,12 @@ body {
     color: var(--gray-3);
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 600px) {
   main {
-    padding: 1.5rem 1.5rem 0;
+    padding: 1.5rem 2.5rem 0;
+  }
+  #home {
+    display: initial;
   }
   #home img {
     width: 100%;
@@ -521,6 +524,12 @@ body {
     border-radius: 1.125rem;
     object-fit: cover;
     background-size: 90%;
+  }
+  #services {
+    align-items: flex-start;
+  }
+  #ourWork {
+    align-items: flex-start;
   }
 }
 @media (min-width: 1000px) {
