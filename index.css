@@ -467,5 +467,42 @@ body {
 
   /** SECTION CLIENTS */
   #clients {
+    margin-top: 6.25rem;
+  }
+  #clients p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    color: var(--gray-1);
+
+    margin-bottom: 1.25rem;
+  }
+  #clients .clients-info-container {
+    display: grid;
+    grid-template-columns: 6.875rem 1fr;
+  }
+  #clients .clients-info-container img {
+    width: 80%;
+    border-radius: 1rem;
+  }
+  #clients .clients-info-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-transform: capitalize;
+    padding: 0.125rem 0;
+  }
+  #clients .clients-info-container div strong {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    color: var(--gray-1);
+  }
+  #clients .clients-info-container div span {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    font-weight: 500;
+    color: var(--gray-3);
   }
 }
