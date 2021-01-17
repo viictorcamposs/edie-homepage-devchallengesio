@@ -31,7 +31,6 @@ body {
   display: flex;
   flex-direction: column;
 
-  padding: 1.25rem 0.625rem 0;
   font-family: "Poppins", sans-serif;
 }
 @media (min-width: 700px) {
@@ -53,6 +52,7 @@ body {
     justify-content: space-between;
 
     text-transform: capitalize;
+    padding: 1.25rem 0.625rem 0;
   }
   header h1 {
     font-family: "Heebo", sans-serif;
@@ -191,6 +191,9 @@ body {
 
 /*! MAIN STYLE */
 @media (min-width: 300px) {
+  main {
+    padding: 1.25rem 0.625rem 0;
+  }
   /** SECTION HOME */
   #home {
     margin-top: 3rem;
@@ -208,27 +211,27 @@ body {
     object-fit: cover;
     background-size: 90%;
   }
-  #home div:first-child {
+  #home .first-div-home {
     margin-bottom: 1rem;
     width: 18.125rem;
   }
-  #home div:first-child span {
+  #home .first-div-home span {
     font-weight: 500;
     font-size: 0.75rem;
     color: var(--blue-1);
   }
-  #home div:first-child h2,
-  #home div:last-child h2 {
+  #home .first-div-home h2,
+  #home .second-div-home h2 {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 2.25rem;
     color: var(--gray-1);
   }
-  #home div:last-child {
+  #home .second-div-home {
     margin-top: 1.5rem;
     width: 18.125rem;
   }
-  #home div:last-child p {
+  #home .second-div-home p {
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.125rem;
@@ -237,13 +240,13 @@ body {
 
     margin: 1.5rem 0 2.125rem;
   }
-  #home div:last-child fieldset legend {
+  .contact-us-form fieldset legend {
     font-weight: 500;
     font-size: 0.625rem;
     line-height: 0.9375rem;
     color: var(--gray-3);
   }
-  #home div:last-child fieldset div {
+  .contact-us-form fieldset div {
     background: var(--gray-6);
     width: 100%;
     height: 3rem;
@@ -255,7 +258,7 @@ body {
     grid-template-columns: 1fr 4.375rem;
     align-items: center;
   }
-  #home div:last-child fieldset div input {
+  .contact-us-form fieldset div input {
     background: none;
     height: 100%;
     width: 100%;
@@ -263,12 +266,12 @@ body {
     font-size: 1rem;
     color: var(--gray-1);
   }
-  #home div:last-child fieldset div input::placeholder {
+  .contact-us-form fieldset div input::placeholder {
     font-weight: 500;
     font-size: 0.875rem;
     color: var(--gray-4);
   }
-  #home div:last-child fieldset div button {
+  .contact-us-form fieldset div button {
     width: 4.375rem;
     height: 2.5rem;
     border-radius: 0.75rem;
@@ -504,5 +507,65 @@ body {
     line-height: 1.6875rem;
     font-weight: 500;
     color: var(--gray-3);
+  }
+}
+
+/*! FOOTER STYLE */
+@media (min-width: 300px) {
+  footer {
+    background: var(--dark-blue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 6.25rem;
+    padding: 2.25rem 0;
+  }
+  footer div {
+    text-transform: capitalize;
+  }
+  footer div,
+  footer form {
+    width: 18.125rem;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 4rem;
+  }
+  .footer-menu a {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: #fff;
+  }
+  .social-medias {
+    margin-bottom: 4rem;
+  }
+  .social-medias h1 {
+    color: var(--gray-6);
+    font-family: "Heebo", sans-serif;
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+
+    margin-bottom: 0.25rem;
+  }
+  .social-medias div a + a {
+    margin-left: 0.5rem;
+  }
+  footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875em;
+    font-weight: 600;
+    color: var(--footer-gray);
+
+    margin-top: 7.5rem;
+  }
+  footer a {
+    color: var(--footer-gray);
   }
 }
