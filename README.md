@@ -54,6 +54,10 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
 
+- [x] I can see a page following the given design
+- [x] I can see a page on mobile following the given design
+- [x] I can go to certain locations by selecting links in navigation or footer
+
 ## How To Use
 
 <!-- Example: -->
