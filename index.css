@@ -416,4 +416,48 @@ body {
   #ourWork .ourWork-container a .material-icons {
     margin-left: 0.75rem;
   }
+
+  /** SECTION OURTEAM */
+  #ourTeam {
+    margin-top: 6.25rem;
+  }
+  #ourTeam .ourTeam-content h2 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: var(--red-1);
+
+    margin-bottom: 0.5rem;
+  }
+  #ourTeam .ourTeam-content h3 {
+    color: var(--gray-1);
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+
+    margin-bottom: 1rem;
+  }
+  #ourTeam .ourTeam-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: var(--gray-2);
+  }
+  #ourTeam .ourTeam-images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5625rem;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2.25rem;
+  }
+  #ourTeam .ourTeam-images-container img {
+    width: 100%;
+    border-radius: 1.5rem;
+  }
+  #ourTeam .ourTeam-images-container div:last-child img:first-child {
+    width: 90%;
+  }
 }
